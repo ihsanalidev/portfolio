@@ -1,0 +1,159 @@
+* {
+  /* CSS Reset */
+  padding: 0;
+  margin: 0;
+  /* Agar sesuai height dan width walaupun ditambah dengan padding dan border */
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+}
+/* ================================================== */
+header {
+  height: 80px;
+  width: 100%;
+  /* position: fixed; */
+  background-color: white;
+  /* border: 1px solid lightgray; */
+  padding-top: 25px;
+  padding-left: 55px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #000428;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  /* z-index: 2; */
+}
+header span {
+  color: #004e92;
+}
+header .navbar-button {
+  display: inline;
+  margin-left: 700px;
+  /* border: 1px solid black; */
+}
+header div a {
+  display: inline;
+  padding: 10px;
+  font-weight: 600;
+  /* border: 1px solid black; */
+}
+/* --------------------------------- */
+.konten-pertama {
+  background-color: #f9f9f9;
+  height: 500px;
+  width: 100%;
+}
+.konten-pertama div {
+  padding: 100px 0px 0px 160px;
+}
+.konten-pertama h1 {
+  font-size: 50px;
+  color: #2e2f36;
+  font-weight: 800;
+}
+.konten-pertama h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2e2f36;
+}
+.konten-pertama img {
+  /* display: inline; */
+  float: right;
+  height: 300px;
+  width: 300px;
+  margin-top: 50px;
+  margin-right: 150px;
+}
+.konten-pertama i {
+  margin-top: 20px;
+  color: #2e2f36;
+  font-size: 30px;
+  padding-right: 20px;
+}
+.konten-pertama i:hover {
+  color: #1d80fc;
+  transition: 0.5s;
+}
+/* -------------------------------- */
+.konten-kedua {
+  margin: 0px 0px 0px 160px;
+}
+.konten-kedua h2 {
+  display: inline;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2e2f36;
+}
+.konten-kedua .pemisah {
+  margin: 0px 0px 0px 20px;
+  display: inline;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #2e2f36;
+  color: #2e2f36;
+  border-radius: 25%;
+}
+.konten-kedua img {
+  display: inline;
+  height: 70px;
+  width: 70px;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+/* -------------------------------- */
+.container {
+  margin-left: 160px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.container img {
+  margin-right: 10px; /* Jarak antara gambar dan teks */
+  height: 300px;
+  width: 400px;
+  border-radius: 5%;
+  float: left;
+}
+.container h1 {
+  margin-left: 470px;
+  color: #1d80fc;
+  font-size: 24px;
+  font-weight: 800;
+}
+.container h2 {
+  margin-left: 470px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.container h3 {
+  margin-left: 470px;
+  margin-top: 20px;
+  font-weight: 200;
+  color: #2e2f36;
+}
+/* -------------------------------- */
+.copyright {
+  height: 120px;
+  width: auto;
+  color: white;
+  background: #2e2f36;
+  display: flex;
+  align-items: center; /* Mengatur penempatan vertikal */
+}
+.copyright p {
+  margin-left: 160px;
+  margin-right: 400px; /* Jarak antara paragraf dan tautan */
+}
+.copyright a {
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+}
+.copyright a:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
+}
