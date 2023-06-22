@@ -121,19 +121,80 @@ header div a {
 .container h1 {
   margin-left: 470px;
   color: #1d80fc;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 800;
 }
 .container h2 {
   margin-left: 470px;
   margin-top: 10px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 800;
 }
 .container h3 {
   margin-left: 470px;
   margin-top: 20px;
   font-weight: 200;
   color: #2e2f36;
+}
+/* -------------------------------- */
+.project {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+.project h1 {
+}
+/* -------------------------------- */
+/*service*/
+.center {
+  text-align: center;
+  margin-top: 20px;
+}
+.center h1 {
+  color: #1d80fc;
+  font-size: 16px;
+  font-weight: 800;
+}
+.center h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.service-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin: 2rem 20px 20px 20px;
+}
+.row {
+  background: #2e2f36;
+  padding: 30px 17px;
+  border-radius: 15px;
+  /* cursor: pointer; */
+  transition: all 0.5s;
+}
+.row i {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.row h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: white;
+}
+.row p {
+  font-size: 18px;
+  color: white;
+  line-height: 20px;
+}
+.row:hover {
+  transform: translateY(-15px);
+  box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 70%);
 }
 /* -------------------------------- */
 .copyright {
